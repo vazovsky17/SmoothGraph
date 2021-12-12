@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <app.vazovsky.smoothgraph.SmoothGraphView
+        android:id="@+id/smoothGraphView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:graph_countVisiblePoints="5"
+        app:graph_lineColor="@color/teal_200"
+        app:graph_lineWidth="4dp"
+        app:graph_pointColor="@color/black"
+        app:graph_pointRadius="4dp"
+        app:graph_pointShow="true"
+        app:graph_titleColor="@color/black"
+        app:graph_titleShow="true"
+        app:graph_titleSize="14sp"
+        app:graph_valueColor="@color/purple_200"
+        app:graph_valueShow="true"
+        app:graph_valueSize="14sp" />
+</FrameLayout>

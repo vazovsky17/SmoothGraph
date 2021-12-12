@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmoothGraphView">
+        <attr name="graph_pointColor" format="reference|color" />
+        <attr name="graph_lineColor" format="reference|color" />
+        <attr name="graph_titleColor" format="reference|color" />
+        <attr name="graph_valueColor" format="reference|color" />
+
+        <attr name="graph_titleShow" format="boolean" />
+        <attr name="graph_valueShow" format="boolean" />
+        <attr name="graph_pointShow" format="boolean" />
+
+        <attr name="graph_titleSize" format="dimension" />
+        <attr name="graph_valueSize" format="dimension" />
+
+        <attr name="graph_pointRadius" format="dimension" />
+        <attr name="graph_lineWidth" format="dimension" />
+
+        <attr name="graph_countVisiblePoints" format="integer" />
+        <attr name="scrolling" format="boolean" />
+    </declare-styleable>
+</resources>
